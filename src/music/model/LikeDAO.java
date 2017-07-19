@@ -2,7 +2,9 @@ package music.model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import music.model.dto.LikeDTO;
@@ -10,23 +12,6 @@ import music.model.util.DBUtil;
 
 public class LikeDAO {
 	static ResourceBundle sql = DBUtil.getResourceBundle();
-	// pstmt 메서드로
-	// 
-	public static boolean psmt(String query, Connection con, PreparedStatement pstmt, LikeDTO like) throws SQLException {
-		boolean ret = false;
-		try {
-			con = DBUtil.getConnection();
-			pstmt = con.prepareStatement(sql.getString(query));
-			pstmt.setString(1, like.getEmail());
-			pstmt.setString(2, like.getMusicAddress());
-			int result = pstmt.executeUpdate();
-			if (result == 1) {
-				ret = true;
-			}
-		} finally {
-			return ret;
-		}
-	}
 
 	// create Like
 	public static boolean createLike(LikeDTO like) throws SQLException {
@@ -34,10 +19,10 @@ public class LikeDAO {
 		PreparedStatement pstmt = null;
 		try {
 
-			if (psmt("createLike", con, pstmt, like)) {
-				if (psmt("addBpm", con, pstmt, like) && psmt("addGender", con, pstmt, like)
-						&& psmt("addGenre", con, pstmt, like) && psmt("addMelody", con, pstmt, like)) {
-					if (sorting()) {
+			if (pstmt("createLike", con, pstmt, like)) {
+				if (pstmt("addBpm", con, pstmt, like) && pstmt("addGender", con, pstmt, like)
+						&& pstmt("addGenre", con, pstmt, like) && pstmt("addMelody", con, pstmt, like)) {
+					if (sorting(con, pstmt) != null) {
 						return true;
 					}
 				}
@@ -54,10 +39,10 @@ public class LikeDAO {
 		PreparedStatement pstmt = null;
 		try {
 
-			if (psmt("deleteLike", con, pstmt, like)) {
-				if (psmt("deleteBpm", con, pstmt, like) && psmt("deleteGender", con, pstmt, like)
-						&& psmt("deleteGenre", con, pstmt, like) && psmt("deleteMelody", con, pstmt, like)) {
-					if (sorting()) {
+			if (pstmt("deleteLike", con, pstmt, like)) {
+				if (pstmt("deleteBpm", con, pstmt, like) && pstmt("deleteGender", con, pstmt, like)
+						&& pstmt("deleteGenre", con, pstmt, like) && pstmt("deleteMelody", con, pstmt, like)) {
+					if (sorting(con, pstmt) != null) {
 						return true;
 					}
 				}
@@ -67,13 +52,32 @@ public class LikeDAO {
 		}
 		return false;
 	}
+	
+	// pstmt 메서드로
+	public static boolean pstmt(String query, Connection con, PreparedStatement pstmt, LikeDTO like)
+			throws SQLException {
+		boolean ret = false;
+		try {
+			con = DBUtil.getConnection();
+			pstmt = con.prepareStatement(sql.getString(query));
+			pstmt.setString(1, like.getEmail());
+			pstmt.setString(2, like.getMusicAddress());
+			int result = pstmt.executeUpdate();
+			if (result == 1) {
+				ret = true;
+			}
+		} finally {
+			return ret;
+		}
+	}
 
-	public static boolean sorting() throws SQLException {
-		Connection con = null;
-		PreparedStatement pstmt = null;
+	//sorting 메서드로
+	public static ArrayList sorting(Connection con, PreparedStatement pstmt) throws SQLException {
 		boolean ret = false;
 		String stan1 = null;
 		String stan2 = null;
+		ResultSet rset = null;
+		ArrayList list = null;
 		int t = 0;
 		try {
 			con = DBUtil.getConnection();
@@ -99,16 +103,18 @@ public class LikeDAO {
 				pstmt = con.prepareStatement(sql.getString("sorting"));
 				pstmt.setString(1, stan1);
 				pstmt.setString(2, stan2);
-				int result = pstmt.executeUpdate();
-				if (result == 1) {
+				rset = pstmt.executeQuery();
+				if (rset.next()) {
 					t++;
+					list.add(rset.getString(0));
 				}
+
 				if (t == 4) {
-					ret = true;
+					return list;
 				}
 			}
-		} finally {
-			return ret;
+		} finally{
+			return null;
 		}
 	}
 }
