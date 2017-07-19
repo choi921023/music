@@ -14,7 +14,7 @@ public class LikeDAO {
 	static ResourceBundle sql = DBUtil.getResourceBundle();
 
 	// create Like
-	public static boolean createLike(LikeDTO like) throws SQLException {
+	public static ArrayList createLike(LikeDTO like) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -22,19 +22,17 @@ public class LikeDAO {
 			if (pstmt("createLike", con, pstmt, like)) {
 				if (pstmt("addBpm", con, pstmt, like) && pstmt("addGender", con, pstmt, like)
 						&& pstmt("addGenre", con, pstmt, like) && pstmt("addMelody", con, pstmt, like)) {
-					if (sorting(con, pstmt) != null) {
-						return true;
-					}
+						return sorting(con, pstmt);
 				}
 			}
 		} finally {
 			DBUtil.close(con, pstmt);
 		}
-		return false;
+		return null;
 	}
 
 	// delete like
-	public static boolean deleteLike(LikeDTO like) throws SQLException {
+	public static ArrayList deleteLike(LikeDTO like) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -42,17 +40,15 @@ public class LikeDAO {
 			if (pstmt("deleteLike", con, pstmt, like)) {
 				if (pstmt("deleteBpm", con, pstmt, like) && pstmt("deleteGender", con, pstmt, like)
 						&& pstmt("deleteGenre", con, pstmt, like) && pstmt("deleteMelody", con, pstmt, like)) {
-					if (sorting(con, pstmt) != null) {
-						return true;
-					}
+					return sorting(con, pstmt);
 				}
 			}
 		} finally {
 			DBUtil.close(con, pstmt);
 		}
-		return false;
+		return null;
 	}
-	
+
 	// pstmt 메서드로
 	public static boolean pstmt(String query, Connection con, PreparedStatement pstmt, LikeDTO like)
 			throws SQLException {
@@ -71,7 +67,7 @@ public class LikeDAO {
 		}
 	}
 
-	//sorting 메서드로
+	// sorting 메서드로
 	public static ArrayList sorting(Connection con, PreparedStatement pstmt) throws SQLException {
 		boolean ret = false;
 		String stan1 = null;
@@ -113,7 +109,7 @@ public class LikeDAO {
 					return list;
 				}
 			}
-		} finally{
+		} finally {
 			return null;
 		}
 	}
