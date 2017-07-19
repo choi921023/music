@@ -20,7 +20,7 @@ public class StationDAO {
 		PreparedStatement pstmt = null;
 		try{
 			con = DBUtil.getConnection();
-			pstmt = con.prepareStatement("createStation");
+			pstmt = con.prepareStatement(sql.getString("createStation"));
 			pstmt.setString(1, email);
 			pstmt.setString(2, musicAddress);
 	
