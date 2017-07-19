@@ -18,11 +18,10 @@ public class LikeDAO {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		try {
-
 			if (pstmt("createLike", con, pstmt, like)) {
 				if (pstmt("addBpm", con, pstmt, like) && pstmt("addGender", con, pstmt, like)
 						&& pstmt("addGenre", con, pstmt, like) && pstmt("addMelody", con, pstmt, like)) {
-						return sorting(con, pstmt);
+					return sorting(con, pstmt);
 				}
 			}
 		} finally {
