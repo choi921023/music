@@ -1,6 +1,9 @@
 body { background: 
  url(https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-Phone.jpg);  
-background-size: cover }
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed; }
 .music-player { position: absolute !important; top: 50%; left: 50%; margin: -207px 0 0 -207px }
 
 .music-player
