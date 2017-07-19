@@ -123,8 +123,8 @@ public class MusicService {
 	}
 
 	// Like Á¦°Å
-	public static boolean deleteLike(String musicAddress) throws SQLException, NotExistException {
-		boolean result = LikeDAO.deleteLike(musicAddress);
+	public static boolean deleteLike(LikeDTO like) throws SQLException, NotExistException {
+		boolean result = LikeDAO.deleteLike(like);
 		if (!result) {
 			throw new NotExistException("Like cancel failed!");
 		}
