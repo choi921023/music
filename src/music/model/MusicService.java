@@ -112,20 +112,18 @@ public class MusicService {
 
 	// Like - CRUD
 	// Like 생성
-	public static boolean createLike(LikeDTO like) throws Exception {
-		boolean result = false;
-		try {
-			result = LikeDAO.createLike(like);
-		} catch (SQLException s) {
-			throw new Exception("이미 like 하셨습니다.");
+	public static ArrayList createLike(LikeDTO like) throws SQLException, NotExistException {
+		ArrayList result = LikeDAO.createLike(like);
+		if (result == null) {
+			throw new NotExistException("Like create failed!");
 		}
 		return result;
 	}
 
 	// Like 제거
-	public static boolean deleteLike(LikeDTO like) throws SQLException, NotExistException {
-		boolean result = LikeDAO.deleteLike(like);
-		if (!result) {
+	public static ArrayList deleteLike(LikeDTO like) throws SQLException, NotExistException {
+		ArrayList result = LikeDAO.deleteLike(like);
+		if (result == null) {
 			throw new NotExistException("Like cancel failed!");
 		}
 		return result;
