@@ -24,7 +24,7 @@ public class MusicService {
 		try {
 			result = MemberDAO.addMember(member);
 		} catch (SQLException s) {
-			throw new Exception("이미 존재하는 ID입니다 다시 시도 하세요");
+			throw new Exception("멤버 추가 실패");
 		}
 		return result;
 	}

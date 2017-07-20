@@ -24,6 +24,7 @@ create table musicinfo (
 	music_bpm number not null,
 	music_gender varchar2(10) not null,
 	music_melody varchar2(5) not null
+	music_albumadd varchar2(50) not null
 );
 --like 테이블, 유저 아이디와 음악 주소가 외부키
 create table likeinfo (

@@ -1,4 +1,4 @@
-package music.model.dto;
+
 
 public class MusicDTO {
 	private String musicAddress;
@@ -8,13 +8,14 @@ public class MusicDTO {
 	private String bpm;
 	private String gender;
 	private String melody;
+	private String albumAddress;
 
 	public MusicDTO() {
 		super();
 	}
 
 	public MusicDTO(String musicAddress, String musicTitle, String artist, String genre, String bpm,
-			String gender, String melody) {
+			String gender, String melody, String albumAddress) {
 		super();
 		this.musicAddress = musicAddress;
 		this.musicTitle = musicTitle;
@@ -23,6 +24,7 @@ public class MusicDTO {
 		this.bpm = bpm;
 		this.gender = gender;
 		this.melody = melody;
+		this.albumAddress = albumAddress;
 	}
 
 	public String getMusicAddress() {
@@ -81,5 +83,12 @@ public class MusicDTO {
 		this.melody = melody;
 	}
 
+	public String getAlbumAddress() {
+		return albumAddress;
+	}
+
+	public void setAlbumAddress(String albumAddress) {
+		this.albumAddress = albumAddress;
+	}
 
 }

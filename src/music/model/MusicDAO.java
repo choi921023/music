@@ -9,7 +9,7 @@
 );
  */
 
-package music.model;
+
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -37,6 +37,7 @@ public class MusicDAO {
 			pstmt.setString(5, music.getBpm());
 			pstmt.setString(6, music.getGender());
 			pstmt.setString(7, music.getMelody());
+			pstmt.setString(8, music.getAlbumAddress());
 
 			int result = pstmt.executeUpdate();
 
@@ -80,7 +81,7 @@ public class MusicDAO {
 			pstmt.setString(1, musicAddress);
 			rset = pstmt.executeQuery();
 			if (rset.next()) {
-				music = new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7));
+				music = new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
@@ -101,7 +102,7 @@ public class MusicDAO {
 
 			musicList = new ArrayList<MusicDTO>();
 			while (rset.next()) {
-				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7)));
+				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
@@ -122,7 +123,7 @@ public class MusicDAO {
 
 			musicList = new ArrayList<MusicDTO>();
 			while (rset.next()) {
-				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7)));
+				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);

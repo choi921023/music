@@ -1,4 +1,4 @@
-package music.model;
+
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -20,7 +20,7 @@ public class StationDAO {
 		PreparedStatement pstmt = null;
 		try{
 			con = DBUtil.getConnection();
-			pstmt = con.prepareStatement(sql.getString("createStation"));
+			pstmt = con.prepareStatement("createStation");
 			pstmt.setString(1, email);
 			pstmt.setString(2, musicAddress);
 	
@@ -70,7 +70,7 @@ public class StationDAO {
 			
 			list = new ArrayList<MusicDTO>();
 			while(rset.next()){
-				list.add( new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7)) );
+				list.add( new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)) );
 			}
 
 		}finally{
