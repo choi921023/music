@@ -80,7 +80,7 @@ public class MusicController extends HttpServlet {
 				response.sendRedirect("member");
 				url = "checkbox.jsp";
 			}else{
-				request.setAttribute("Msg", "이미 같은 아이디가 존재합니다.");
+				request.setAttribute("errorMsg", "이미 같은 아이디가 존재합니다.");
 			}
 		}catch(Exception s){
 			request.setAttribute("errorMsg", s.getMessage());
