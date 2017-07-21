@@ -47,11 +47,8 @@ public class MusicService {
 		return result;
 	}
 
-	public static MemberDTO getMember(String email) throws SQLException, NotExistException {
+	public static MemberDTO getMember(String email) throws SQLException{
 		MemberDTO member = MemberDAO.getMember(email);
-		if (member == null) {
-			throw new NotExistException("검색하는 회원이 미 존재합니다.");
-		}
 		return member;
 	}
 
@@ -109,8 +106,21 @@ public class MusicService {
 		}
 		return musicList;
 	}
+	
+	// 음악 선택할때 10개씩 list 가져오기
+	public static ArrayList<MusicDTO> getMusicListSelect(String[] musicGenre) throws SQLException {
+		ArrayList<MusicDTO> musicList = MusicDAO.getMusicListSelect(musicGenre);
+		return musicList;
+	}
 
 	// Like - CRUD
+	// Like 검색
+	public static ArrayList<LikeDTO> getLike(String mail) throws SQLException {
+		ArrayList<LikeDTO> musicList = null;
+		musicList = LikeDAO.getLike(mail);
+		return musicList;
+	}
+
 	// Like 생성
 	public static ArrayList createLike(LikeDTO like) throws SQLException, NotExistException {
 		ArrayList result = LikeDAO.createLike(like);
@@ -177,7 +187,7 @@ public class MusicService {
 	// 해당 회원 정보를 검색하여 staionInfo테이블 검색 후, 해당 곡 주소를 바탕으로 musicInfo 테이블과 조인하여 나온
 	// 모든 곡 정보 반환
 	public static ArrayList<MusicDTO> getStation(String email) throws NotExistException, SQLException {
-		 ArrayList<MusicDTO> list = StationDAO.getStation(email);
+		ArrayList<MusicDTO> list = StationDAO.getStation(email);
 		if (list == null) {
 			throw new NotExistException("현재 스테이션이 존재하지 않습니다. 선호하는 노래를 선택해주세요.");
 		}

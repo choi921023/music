@@ -22,6 +22,7 @@ public class MemberDAO {
 	
 	//create member
 	public static boolean addMember(MemberDTO member) throws SQLException {
+		System.out.println("MemberDAO");
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -39,6 +40,7 @@ public class MemberDAO {
 		} finally {
 			DBUtil.close(con, pstmt);
 		}
+		System.out.println("endMemberDAO");
 		return false;
 	}
 	//update member

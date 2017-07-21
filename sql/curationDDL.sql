@@ -8,6 +8,7 @@ drop table musicruleinfo;
 drop table bpmruleinfo;
 drop table genderruleinfo;
 drop table melodyruleinfo;
+drop table genreruleinfo;
 
 --사용자 정보 테이블, 유저 아이디가 프라이머리 키 
 create table userinfo (
@@ -23,7 +24,7 @@ create table musicinfo (
 	music_genre varchar2(20) not null ,
 	music_bpm number not null,
 	music_gender varchar2(10) not null,
-	music_melody varchar2(5) not null
+	music_melody varchar2(5) not null,
 	music_albumadd varchar2(50) not null
 );
 --like 테이블, 유저 아이디와 음악 주소가 외부키
@@ -69,3 +70,5 @@ ALTER TABLE stationinfo ADD PRIMARY KEY (user_id, music_musadd);
 ALTER TABLE likeinfo  ADD FOREIGN KEY (user_id) REFERENCES userinfo  (user_id) ON DELETE CASCADE;
 
 commit;
+
+select * from USERINFO;

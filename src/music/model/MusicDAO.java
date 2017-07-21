@@ -1,3 +1,5 @@
+package music.model;
+
 /*create table musicinfo (
    music_musadd varchar2(50) primary key,
    music_name varchar2(50) not null,
@@ -129,5 +131,37 @@ public class MusicDAO {
 			DBUtil.close(con, pstmt, rset);
 		}
 		return musicList;
+	}
+	
+	public static ArrayList<MusicDTO> getMusicListSelect(String[] musicGenre) throws SQLException {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rset = null;
+		ArrayList<MusicDTO> musicTList = null;
+
+		try {
+			con = DBUtil.getConnection();
+			if(musicGenre.length == 1){
+				pstmt = con.prepareStatement(sql.getString("getMusicListSelect1"));
+				pstmt.setString(1, musicGenre[0]);
+			}else if(musicGenre.length == 2){
+				pstmt = con.prepareStatement(sql.getString("getMusicListSelect2"));
+				pstmt.setString(1, musicGenre[0]);
+				pstmt.setString(2, musicGenre[1]);
+			}else if(musicGenre.length == 3){
+				pstmt = con.prepareStatement(sql.getString("getMusicListSelect3"));
+				pstmt.setString(1, musicGenre[0]);
+				pstmt.setString(2, musicGenre[1]);
+				pstmt.setString(2, musicGenre[3]);
+			}
+			
+			rset = pstmt.executeQuery();
+			while(rset.next()) {
+				musicTList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
+			}
+		} finally {
+			DBUtil.close(con, pstmt, rset);
+		}
+		return musicTList;
 	}
 }

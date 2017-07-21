@@ -1,3 +1,5 @@
+package music.model.dto;
+
 
 
 public class MusicDTO {

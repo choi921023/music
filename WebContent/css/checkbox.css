@@ -1,0 +1,142 @@
+@CHARSET "EUC-KR";
+{margin : 0px;
+padding : 0px;}
+body { 
+	width : 100%;
+height : 100%;
+/* background: url(https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-Phone.jpg);  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed; */ }
+
+.root {
+	margin : auto;
+	background-color : yellow;
+	width : 100%;
+}
+.back {
+	background-color : blue;
+	float: left;
+	width : 8%;
+	height : 90%;
+}
+.songlist {
+	background-color : green;
+	float: left;
+	width : 38%;
+	height : 90%
+}
+.selectlist {
+	background-color : red;
+	float: left;
+	width : 38%;
+	height : 90%;
+}
+.forward {
+	background-color : pink;
+	float: left;
+	width : 8%;
+	height : 90%;
+}
+.back_blank1 {
+	background-color : gray;
+	width : 100%;
+	height : 20%;
+}
+.back_button {
+	background-color : navy;
+	width : 100%;
+	height : 60%;
+}
+.back_blank {
+	background-color : black;
+	width : 100%;
+	height : 20%;
+}
+.songlist_title {
+	background-color : purple;
+	width : 100%;
+	height : 20%;
+}
+.songlist_name {
+	background-color : orange;
+	width : 100%;
+	height : 60%;
+}
+.songlist_buttons {
+	background-color : white;
+	width : 100%;
+	height : 20%;
+}
+.songlist_blank {
+	background-color : darkred;
+	float : left;
+	width : 70%;
+	height : 100%;
+}
+.songlist_button {
+	background-color : #800040;
+	float: right;
+	width : 30%;
+	height : 100%;
+}
+.selectlist .selectlist_title {
+	background-color : #0080ff;
+	width : 100%;
+	height : 20%;
+}
+.selectlist .selectlist_name {
+	background-color : silver;
+	width : 100%;
+	height : 80%;
+}
+.forward_logout {
+	background-color : ivory;
+	width : 100%;
+	height : 20%;
+}
+.forward_button {
+	background-color : kaky;
+	width : 100%;
+	height : 60%;
+}
+.forward_blank {
+	background-color : #804040;
+	width : 100%;
+	height : 20%;
+}
+/* label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+    &:after {
+      content: '';
+      width: 9px;
+      height: 5px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border: 3px solid #fcfff4;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      transform: rotate(-45deg);
+    }
+    &:hover::after {
+      opacity: 0.3;
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked + label:after {
+      opacity: 1;
+    }    
+  } */

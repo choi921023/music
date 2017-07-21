@@ -8,11 +8,32 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import music.model.dto.LikeDTO;
+import music.model.dto.MusicDTO;
 import music.model.util.DBUtil;
 
 public class LikeDAO {
 	static ResourceBundle sql = DBUtil.getResourceBundle();
 
+	//get Like
+	public static ArrayList<LikeDTO> getLike(String mail) throws SQLException {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rset = null;
+		ArrayList<LikeDTO> likeList = null;
+		try {
+			con = DBUtil.getConnection();
+			pstmt = con.prepareStatement(sql.getString("getLike"));
+			pstmt.setString(1, mail);
+			rset = pstmt.executeQuery();
+			likeList = new ArrayList<LikeDTO>();
+			while (rset.next()) {
+				likeList.add(new LikeDTO(rset.getString(1), rset.getString(2)));
+			}
+		} finally {
+			DBUtil.close(con, pstmt);
+		}
+		return likeList;
+	}
 	// create Like
 	public static ArrayList createLike(LikeDTO like) throws SQLException {
 		Connection con = null;

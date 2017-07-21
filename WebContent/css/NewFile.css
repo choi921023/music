@@ -1,0 +1,82 @@
+@CHARSET "EUC-KR";
+body { 
+	weight : 100%;
+height : 100%;
+background: url(https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-Phone.jpg);  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed; }
+div.container {
+    width: 100%;
+}
+
+header .logo {
+	width : 20%;
+	height : 80px;
+	float : left;
+	text-shadow:gray;
+	text-align: center;
+}
+header .left {
+	width : 35%;
+	height : 80px;
+	float : left;
+	background-color : red;
+	text-align: center;
+	color: white;
+}
+
+header .right {
+	width : 35%;
+	height : 80px;
+	float : left;
+	background-color : black;
+	text-align: center;
+	color: white;
+}
+header .logout {
+	width : 10%;
+	height : 80px;
+	float : left;
+	background-color : red;
+	text-align: center;
+	color: white;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    bottom:0;
+    position:absolute;
+    width:97%;
+    height : 30px;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+section {
+	margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
+article {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
