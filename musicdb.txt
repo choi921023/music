@@ -1,101 +1,100 @@
-music_singer	music_name	music_genre	music_bpm	music_musadd	music_melody	music_gender
-헤이즈 (Heize)	비도 오고 그래서 (Feat. 신용재)	Rap / Hip-hop	156.44	C:\Users\choi9\Downloads\song\001 헤이즈 (Heize)-04-비도 오고 그래서 (Feat. 신용재).mp3		F
-Red Velvet (레드벨벳)	빨간 맛 (Red Flavor)	Dance	124.99	C:\Users\choi9\Downloads\song\002 Red Velvet (레드벨벳)-01-빨간 맛 (Red Flavor).mp3		F
-지코 (ZICO)	Artist	Rap / Hip-hop	118.09	C:\Users\choi9\Downloads\song\003 지코 (ZICO)-02-Artist.mp3		M
-헤이즈 (Heize)	널 너무 모르고	Rap / Hip-hop	105	C:\Users\choi9\Downloads\song\004 헤이즈 (Heize)-01-널 너무 모르고.mp3		F
-BLACKPINK	마지막처럼	Dance	125.01	C:\Users\choi9\Downloads\song\005 BLACKPINK-01-마지막처럼.mp3		F
-마마무	나로 말할 것 같으면	Dance	119.99	C:\Users\choi9\Downloads\song\006 마마무-01-나로 말할 것 같으면.mp3		F
-볼빨간사춘기/ 스무살	남이 될 수 있을까	Folk	85	C:\Users\choi9\Downloads\song\007 볼빨간사춘기-01-남이 될 수 있을까.mp3		F
-황치열	매일 듣는 노래 (A Daily Song)	Ballad	131.89	C:\Users\choi9\Downloads\song\008 황치열-03-매일 듣는 노래 (A Daily Song).mp3		M
-Apink (에이핑크)	FIVE	Dance	115.01	C:\Users\choi9\Downloads\song\009 Apink (에이핑크)-01-FIVE.mp3		F
-G-DRAGON	무제(無題) (Untitled/ 2014)	R&B / Soul	105.45	"C:\Users\choi9\Downloads\song\010 G-DRAGON-04-무제(無題) (Untitled, 2014).mp3"		M
-볼빨간사춘기	처음부터 너와 나	Drama	97.01	C:\Users\choi9\Downloads\song\011 볼빨간사춘기-01-처음부터 너와 나.mp3		F
-Ed Sheeran	Shape of You	Pop	123.04	C:\Users\choi9\Downloads\song\012 Ed Sheeran-04-Shape of You.mp3		M
-싸이 (PSY)	New Face	Dance	132	C:\Users\choi9\Downloads\song\013 싸이 (PSY)-02-New Face.mp3		M
-TWICE (트와이스)	SIGNAL	Dance	104.02	C:\Users\choi9\Downloads\song\014 TWICE (트와이스)-01-SIGNAL.mp3		F
-수란 (SURAN)	오늘 취하면 (Feat.창모) (Prod. SUGA)	R&B / Soul	146.03	C:\Users\choi9\Downloads\song\015 수란 (SURAN)-01-오늘 취하면 (Feat.창모) (Prod. SUGA).mp3		MIX
-청하	Why Don`t You Know (Feat. 넉살)	Dance	146.4	C:\Users\choi9\Downloads\song\016 청하-02-Why Don`t You Know (Feat. 넉살).mp3		MIX
-아이유	팔레트 (Feat. G-DRAGON)	R&B / Soul	101.99	C:\Users\choi9\Downloads\song\017 아이유-02-팔레트 (Feat. G-DRAGON).mp3		MIX
-WINNER	REALLY REALLY	Dance	103	C:\Users\choi9\Downloads\song\018 WINNER-01-REALLY REALLY.mp3		M
-한동근	미치고 싶다	Ballad	126.11	C:\Users\choi9\Downloads\song\019 한동근-04-미치고 싶다.mp3		M
-국민의 아들	NEVER	Dance	110.01	C:\Users\choi9\Downloads\song\020 국민의 아들-05-NEVER.mp3		M
-싸이 (PSY)	I LUV IT	Dance	125.01	C:\Users\choi9\Downloads\song\021 싸이 (PSY)-01-I LUV IT.mp3		M
-지코 (ZICO)	ANTI (Feat. G.Soul)	Rap / Hip-hop	156.03	C:\Users\choi9\Downloads\song\022 지코 (ZICO)-03-ANTI (Feat. G.Soul).mp3		M
-지코 (ZICO)	FANXY CHILD (Feat. FANXY CHILD)	Rap / Hip-hop	144.01	C:\Users\choi9\Downloads\song\023 지코 (ZICO)-04-FANXY CHILD (Feat. FANXY CHILD).mp3		M
-아이유	밤편지	Ballad	120.83	C:\Users\choi9\Downloads\song\024 아이유-01-밤편지.mp3		F
-효린/ 창모 (CHANGMO)	BLUE MOON (Prod. GroovyRoom)	Dance	107	C:\Users\choi9\Downloads\song\025 효린-01-BLUE MOON (Prod. GroovyRoom).mp3		MIX
-윤종신	좋니	Ballad	151.88	C:\Users\choi9\Downloads\song\026 윤종신-01-좋니.mp3		M
-씨스타	LONELY	R&B / Soul	85.16	C:\Users\choi9\Downloads\song\027 씨스타-01-LONELY.mp3		F
-양홍원 (Young B)	아침에 (Feat. Bryn)	Rap / Hip-hop	105.14	C:\Users\choi9\Downloads\song\028 양홍원 (Young B)-01-아침에 (Feat. Bryn).mp3		MIX
-에일리	첫눈처럼 너에게 가겠다	Drama	133.98	C:\Users\choi9\Downloads\song\029 에일리-01-첫눈처럼 너에게 가겠다.mp3		F
-언니쓰	맞지?	Dance	129.99	C:\Users\choi9\Downloads\song\030 언니쓰-01-맞지_.mp3		F
-마크툽 (MAKTUB)/ 구윤회	Marry Me	Ballad	122.85	C:\Users\choi9\Downloads\song\031 마크툽 (MAKTUB)-01-Marry Me.mp3		M
-아이유	사랑이 잘 (With 오혁)	R&B / Soul	130.86	C:\Users\choi9\Downloads\song\032 아이유-01-사랑이 잘 (With 오혁).mp3		MIX
-볼빨간사춘기	좋다고 말해	Folk	161.3	C:\Users\choi9\Downloads\song\033 볼빨간사춘기-01-좋다고 말해.mp3		F
-TWICE (트와이스)	KNOCK KNOCK	Dance	129.98	C:\Users\choi9\Downloads\song\034 TWICE (트와이스)-01-KNOCK KNOCK.mp3		F
-창모 (CHANGMO)	아름다워	Rap / Hip-hop	88.01	C:\Users\choi9\Downloads\song\035 창모 (CHANGMO)-05-아름다워.mp3		M
-FTISLAND	사랑앓이 (With 김나영)	Ballad	143.53	C:\Users\choi9\Downloads\song\036 FTISLAND-01-사랑앓이 (With 김나영).mp3		MIX
-방탄소년단	봄날	Rap / Hip-hop	107.06	C:\Users\choi9\Downloads\song\037 방탄소년단-15-봄날.mp3		M
-혁오 (HYUKOH)	TOMBOY	Rock	147.95	C:\Users\choi9\Downloads\song\038 혁오 (HYUKOH)-04-TOMBOY.mp3		M
-마마무	아재개그 (Narr. 김대희/ 김준호)	Dance	133	"C:\Users\choi9\Downloads\song\039 마마무-04-아재개그 (Narr. 김대희, 김준호).mp3"		MIX
-헤이즈 (Heize)	먹구름 (Feat. nafla)	Rap / Hip-hop	104.98	C:\Users\choi9\Downloads\song\040 헤이즈 (Heize)-02-먹구름 (Feat. nafla).mp3		MIX
-Crush	Outside (Feat. Beenzino)	R&B / Soul	115	C:\Users\choi9\Downloads\song\041 Crush-02-Outside (Feat. Beenzino).mp3		M
-볼빨간사춘기	나만 안되는 연애	Folk	136	C:\Users\choi9\Downloads\song\042 볼빨간사춘기-05-나만 안되는 연애.mp3		F
-헤이즈 (Heize)	돌아오지마 (Feat. 용준형 Of 비스트)	Rap / Hip-hop	95.41	C:\Users\choi9\Downloads\song\043 헤이즈 (Heize)-02-돌아오지마 (Feat. 용준형 Of 비스트).mp3		MIX
-BLACKPINK	불장난	Dance	96.99	C:\Users\choi9\Downloads\song\044 BLACKPINK-01-불장난.mp3		F
-박재범	ALL I WANNA DO (K) (Feat. Hoody/ Loco)	R&B / Soul	96.01	"C:\Users\choi9\Downloads\song\045 박재범-04-ALL I WANNA DO (K) (Feat. Hoody, Loco).mp3"		MIX
-볼빨간사춘기	우주를 줄게	Folk	82.99	C:\Users\choi9\Downloads\song\046 볼빨간사춘기-01-우주를 줄게.mp3		F
-The Chainsmokers	Closer (Feat. Halsey)	Electronica	94.97	C:\Users\choi9\Downloads\song\047 The Chainsmokers-03-Closer (Feat. Halsey).mp3		MIX
-딥플로우	작두 (Feat. 넉살/ Huckleberry P)	Rap / Hip-hop	84.02	"C:\Users\choi9\Downloads\song\048 딥플로우-06-작두 (Feat. 넉살, Huckleberry P).mp3"		M
-뉴이스트	여보세요	Ballad	95.99	C:\Users\choi9\Downloads\song\049 뉴이스트-01-여보세요.mp3		M
-린	On&On (Feat. 챈슬러)	R&B / Soul	90.01	C:\Users\choi9\Downloads\song\050 린-02-On&On (Feat. 챈슬러).mp3		MIX
-정키	부담이 돼 (Feat. 휘인 Of 마마무)	Ballad	137.91	C:\Users\choi9\Downloads\song\051 정키-01-부담이 돼 (Feat. 휘인 Of 마마무).mp3		MIX
-신현희와김루트	오빠야	Folk	109.98	C:\Users\choi9\Downloads\song\052 신현희와김루트-02-오빠야.mp3		MIX
-하이라이트 (Highlight)	CALLING YOU	Dance	89.99	C:\Users\choi9\Downloads\song\053 하이라이트 (Highlight)-01-CALLING YOU.mp3		M
-지코 (ZICO)	천재 (Behind the scene)	Rap / Hip-hop	103.13	C:\Users\choi9\Downloads\song\054 지코 (ZICO)-01-천재 (Behind the scene).mp3		M
-DEAN	D (half moon) (Feat. 개코)	R&B / Soul	84.98	C:\Users\choi9\Downloads\song\055 DEAN-05-D (half moon) (Feat. 개코).mp3		M
-G-DRAGON	개소리 (BULLSHIT)	Rap / Hip-hop	96.02	C:\Users\choi9\Downloads\song\056 G-DRAGON-02-개소리 (BULLSHIT).mp3		M
-마마무	Decalcomanie (데칼코마니)	Dance	115.94	C:\Users\choi9\Downloads\song\057 마마무-02-Decalcomanie (데칼코마니).mp3		F
-제시 (Jessi)	Gucci	Rap / Hip-hop	100.2	C:\Users\choi9\Downloads\song\058 제시 (Jessi)-01-Gucci.mp3		F
-슬레이트	Oh Little Girl	Dance	93.02	C:\Users\choi9\Downloads\song\059 슬레이트-04-Oh Little Girl.mp3		F
-Justin Bieber	Love Yourself	Pop	100.01	C:\Users\choi9\Downloads\song\060 Justin Bieber-05-Love Yourself.mp3		M
-TWICE (트와이스)	TT	Dance	130	C:\Users\choi9\Downloads\song\061 TWICE (트와이스)-01-TT.mp3		F
-엠씨더맥스	어디에도	Ballad	131.97	C:\Users\choi9\Downloads\song\062 엠씨더맥스-02-어디에도.mp3		M
-아이오아이 (I.O.I)	소나기	Ballad	124.64	C:\Users\choi9\Downloads\song\063 아이오아이 (I.O.I)-01-소나기.mp3		F
-시우민 (XIUMIN)/ 마크 (MARK)	Young & Free	Dance	100.03	C:\Users\choi9\Downloads\song\064 시우민 (XIUMIN)-01-Young & Free.mp3		M
-The Chainsmokers/ Coldplay	Something Just Like This	Electronica	102.99	C:\Users\choi9\Downloads\song\065 The Chainsmokers-05-Something Just Like This.mp3		M
-하이라이트 (Highlight)	얼굴 찌푸리지 말아요	Dance	150	C:\Users\choi9\Downloads\song\066 하이라이트 (Highlight)-01-얼굴 찌푸리지 말아요.mp3		M
-한동근	그대라는 사치	Ballad	136	C:\Users\choi9\Downloads\song\067 한동근-01-그대라는 사치.mp3		M
-정승환	너였다면	Drama	135.95	C:\Users\choi9\Downloads\song\068 정승환-01-너였다면.mp3		M
-케이시 (Kassy)	굿모닝 (Good Morning)	Drama	85.02	C:\Users\choi9\Downloads\song\069 케이시 (Kassy)-01-굿모닝 (Good Morning).mp3		F
-싸이 (PSY)	어땠을까 (Feat. 박정현)	Rap / Hip-hop	106.01	C:\Users\choi9\Downloads\song\070 싸이 (PSY)-05-어땠을까 (Feat. 박정현).mp3		MIX
-볼빨간사춘기	심술	Folk	156.02	C:\Users\choi9\Downloads\song\071 볼빨간사춘기-04-심술.mp3		F
-PRODUCE 101	나야 나 (PICK ME)	Dance	128.01	C:\Users\choi9\Downloads\song\072 PRODUCE 101-01-나야 나 (PICK ME).mp3		M
-Charlie Puth/ Wiz Khalifa	See You Again (폴 워커 추모 엔딩곡)	Foreign Movie	160.13	C:\Users\choi9\Downloads\song\073 Charlie Puth-07-See You Again (폴 워커 추모 엔딩곡).mp3		M
-로꼬	지나쳐 (Feat. DEAN)	Rap / Hip-hop	102.01	C:\Users\choi9\Downloads\song\074 로꼬-06-지나쳐 (Feat. DEAN).mp3		M
-악동뮤지션	오랜 날 오랜 밤	Folk	117.06	C:\Users\choi9\Downloads\song\075 악동뮤지션-03-오랜 날 오랜 밤.mp3		MIX
-Red Velvet (레드벨벳)	You Better Know	Dance	120.02	C:\Users\choi9\Downloads\song\076 Red Velvet (레드벨벳)-02-You Better Know.mp3		F
-Crush	Beautiful	Drama	109.87	C:\Users\choi9\Downloads\song\077 Crush-01-Beautiful.mp3		M
-창모 (CHANGMO)	마에스트로 (Maestro)	Rap / Hip-hop	113.99	C:\Users\choi9\Downloads\song\078 창모 (CHANGMO)-04-마에스트로 (Maestro).mp3		M
-Red Velvet (레드벨벳)	Rookie	Dance	163.99	C:\Users\choi9\Downloads\song\079 Red Velvet (레드벨벳)-01-Rookie.mp3		F
-TWICE (트와이스)	CHEER UP	Dance	86.5	C:\Users\choi9\Downloads\song\080 TWICE (트와이스)-01-CHEER UP.mp3		F
-길구봉구	바람이 불었으면 좋겠어	Ballad	135.99	C:\Users\choi9\Downloads\song\081 길구봉구-01-바람이 불었으면 좋겠어.mp3		F
-PRODUCE 101	Hands on me	Dance	120	C:\Users\choi9\Downloads\song\082 PRODUCE 101-01-Hands on me.mp3		M
-지코 (ZICO)	She`s a Baby	R&B / Soul	153.93	C:\Users\choi9\Downloads\song\083 지코 (ZICO)-01-She`s a Baby.mp3		M
-Knock	열어줘	Dance	145.95	C:\Users\choi9\Downloads\song\084 Knock-03-열어줘.mp3		M
-서은광 (비투비)/ 임현식 (비투비)/ 육성재 (비투비)	알듯 말듯해	Drama	98	C:\Users\choi9\Downloads\song\085 서은광 (비투비)-01-알듯 말듯해.mp3		M
-효린/ 키썸 (Kisum)	FRUITY (Prod. GroovyRoom)	Dance	97.01	C:\Users\choi9\Downloads\song\086 효린-01-FRUITY (Prod. GroovyRoom).mp3		F
-한동근	이 소설의 끝을 다시 써보려 해	Ballad	134.15	C:\Users\choi9\Downloads\song\087 한동근-01-이 소설의 끝을 다시 써보려 해.mp3		M
-세븐틴	울고 싶지 않아	Dance	100.02	C:\Users\choi9\Downloads\song\088 세븐틴-01-울고 싶지 않아.mp3		M
-볼빨간사춘기	You(=I)	Folk	105	C:\Users\choi9\Downloads\song\089 볼빨간사춘기-03-You(=I).mp3		F
-G-DRAGON	SUPER STAR	Rap / Hip-hop	130.01	C:\Users\choi9\Downloads\song\090 G-DRAGON-03-SUPER STAR.mp3		M
-BIGBANG	에라 모르겠다	Rap / Hip-hop	90	C:\Users\choi9\Downloads\song\091 BIGBANG-01-에라 모르겠다.mp3		M
-방탄소년단	피 땀 눈물	Rap / Hip-hop	93	C:\Users\choi9\Downloads\song\092 방탄소년단-02-피 땀 눈물.mp3		M
-아이유	이런 엔딩	Ballad	121.74	C:\Users\choi9\Downloads\song\093 아이유-03-이런 엔딩.mp3		F
-박효신	숨	Ballad	99.23	C:\Users\choi9\Downloads\song\094 박효신-09-숨.mp3		M
-박보람	넌 왜? (Feat. 서사무엘)	R&B / Soul	94.01	C:\Users\choi9\Downloads\song\095 박보람-01-넌 왜_ (Feat. 서사무엘).mp3		MIX
-어반자카파	널 사랑하지 않아	Ballad	147.93	C:\Users\choi9\Downloads\song\096 어반자카파-01-널 사랑하지 않아.mp3		MIX
-아이유	이 지금	Ballad	120.79	C:\Users\choi9\Downloads\song\097 아이유-01-이 지금.mp3		F
-임창정	내가 저지른 사랑	Ballad	128.11	C:\Users\choi9\Downloads\song\098 임창정-11-내가 저지른 사랑.mp3		M
-유승우/ 산들 (B1A4)	오빠 (PROD. Brother Su)	Ballad	110.02	C:\Users\choi9\Downloads\song\099 유승우-01-오빠 (PROD. Brother Su).mp3		M
-이효리	Seoul (Feat. Killagramz)	R&B / Soul	143.01	C:\Users\choi9\Downloads\song\100 이효리-01-Seoul (Feat. Killagramz).mp3		MIX
+Rookie	Red Velvet (레드벨벳)	./src/audio/079.mp3	Dance	F	빠름	MAJOR	./src/img/001.jpg
+좋다고 말해	볼빨간사춘기	./src/audio/033.mp3	Folk	F	빠름	MAJOR	./src/img/002.jpg
+심술	볼빨간사춘기	./src/audio/071.mp3	Folk	F	빠름	MAJOR	./src/img/006.jpg
+좋니	윤종신	./src/audio/026.mp3	Ballad	M	빠름	MAJOR	./src/img/008.jpg
+그대라는 사치	한동근	./src/audio/067.mp3	Ballad	M	빠름	MAJOR	./src/img/020.jpg
+바람이 불었으면 좋겠어	길구봉구	./src/audio/081.mp3	Ballad	F	빠름	MAJOR	./src/img/021.jpg
+New Face	싸이 (PSY)	./src/audio/013.mp3	Dance	M	중간	MAJOR	./src/img/026.jpg
+어디에도	엠씨더맥스	./src/audio/062.mp3	Ballad	M	중간	MAJOR	./src/img/027.jpg
+매일 듣는 노래 (A Daily Song)	황치열	./src/audio/008.mp3	Ballad	M	중간	MAJOR	./src/img/028.jpg
+내가 저지른 사랑	임창정	./src/audio/098.mp3	Ballad	M	중간	MAJOR	./src/img/034.jpg
+나야 나 (PICK ME)	PRODUCE 101	./src/audio/072.mp3	Dance	M	중간	MAJOR	./src/img/035.jpg
+미치고 싶다	한동근	./src/audio/019.mp3	Ballad	M	중간	MAJOR	./src/img/036.jpg
+마지막처럼	BLACKPINK	./src/audio/005.mp3	Dance	F	중간	MAJOR	./src/img/037.jpg
+I LUV IT	싸이 (PSY)	./src/audio/021.mp3	Dance	M	중간	MAJOR	./src/img/038.jpg
+밤편지	아이유	./src/audio/024.mp3	Ballad	F	중간	MAJOR	./src/img/044.jpg
+나로 말할 것 같으면	마마무	./src/audio/006.mp3	Dance	F	중간	MAJOR	./src/img/048.jpg
+오랜 날 오랜 밤	악동뮤지션	./src/audio/075.mp3	Folk	MIX	중간	MAJOR	./src/img/050.jpg
+Decalcomanie (데칼코마니)	마마무	./src/audio/057.mp3	Dance	F	중간	MAJOR	./src/img/051.jpg
+오빠야	신현희와김루트	./src/audio/052.mp3	Folk	MIX	중간	MAJOR	./src/img/057.jpg
+Beautiful	Crush	./src/audio/077.mp3	Drama	M	중간	MAJOR	./src/img/058.jpg
+어땠을까 (Feat. 박정현)	싸이 (PSY)	./src/audio/070.mp3	Rap / Hip-hop	MIX	중간	MAJOR	./src/img/061.jpg
+"무제(無題) (Untitled, 2014)"	G-DRAGON	./src/audio/010.mp3	R&B / Soul	M	중간	MAJOR	./src/img/062.jpg
+You(=I)	볼빨간사춘기	./src/audio/089.mp3	Folk	F	중간	MAJOR	./src/img/065.jpg
+SIGNAL	TWICE (트와이스)	./src/audio/014.mp3	Dance	F	중간	MAJOR	./src/img/067.jpg
+팔레트 (Feat. G-DRAGON)	아이유	./src/audio/017.mp3	R&B / Soul	MIX	중간	MAJOR	./src/img/072.jpg
+숨	박효신	./src/audio/094.mp3	Ballad	M	느림	MAJOR	./src/img/077.jpg
+넌 왜? (Feat. 서사무엘)	박보람	./src/audio/095.mp3	R&B / Soul	MIX	느림	MAJOR	./src/img/087.jpg
+아름다워	창모 (CHANGMO)	./src/audio/035.mp3	Rap / Hip-hop	M	느림	MAJOR	./src/img/093.jpg
+CHEER UP	TWICE (트와이스)	./src/audio/080.mp3	Dance	F	느림	MAJOR	./src/img/094.jpg
+우주를 줄게	볼빨간사춘기	./src/audio/046.mp3	Folk	F	느림	MAJOR	./src/img/100.jpg
+See You Again (폴 워커 추모 엔딩곡)	"Charlie Puth, Wiz Khalifa"	./src/audio/073.mp3	Foreign Movie	M	빠름	MINOR	./src/img/003.jpg
+비도 오고 그래서 (Feat. 신용재)	헤이즈 (Heize)	./src/audio/001.mp3	Rap / Hip-hop	F	빠름	MINOR	./src/img/004.jpg
+ANTI (Feat. G.Soul)	지코 (ZICO)	./src/audio/022.mp3	Rap / Hip-hop	M	빠름	MINOR	./src/img/005.jpg
+She`s a Baby	지코 (ZICO)	./src/audio/083.mp3	R&B / Soul	M	빠름	MINOR	./src/img/007.jpg
+얼굴 찌푸리지 말아요	하이라이트 (Highlight)	./src/audio/066.mp3	Dance	M	빠름	MINOR	./src/img/009.jpg
+TOMBOY	혁오 (HYUKOH)	./src/audio/038.mp3	Rock	M	빠름	MINOR	./src/img/010.jpg
+널 사랑하지 않아	어반자카파	./src/audio/096.mp3	Ballad	MIX	빠름	MINOR	./src/img/011.jpg
+Why Don`t You Know (Feat. 넉살)	청하	./src/audio/016.mp3	Dance	MIX	빠름	MINOR	./src/img/012.jpg
+오늘 취하면 (Feat.창모) (Prod. SUGA)	수란 (SURAN)	./src/audio/015.mp3	R&B / Soul	MIX	빠름	MINOR	./src/img/013.jpg
+열어줘	Knock	./src/audio/084.mp3	Dance	M	빠름	MINOR	./src/img/014.jpg
+FANXY CHILD (Feat. FANXY CHILD)	지코 (ZICO)	./src/audio/023.mp3	Rap / Hip-hop	M	빠름	MINOR	./src/img/015.jpg
+사랑앓이 (With 김나영)	FTISLAND	./src/audio/036.mp3	Ballad	MIX	빠름	MINOR	./src/img/016.jpg
+Seoul (Feat. Killagramz)	이효리	./src/audio/100.mp3	R&B / Soul	MIX	빠름	MINOR	./src/img/017.jpg
+부담이 돼 (Feat. 휘인 Of 마마무)	정키	./src/audio/051.mp3	Ballad	MIX	빠름	MINOR	./src/img/018.jpg
+나만 안되는 연애	볼빨간사춘기	./src/audio/042.mp3	Folk	F	빠름	MINOR	./src/img/019.jpg
+너였다면	정승환	./src/audio/068.mp3	Drama	M	빠름	MINOR	./src/img/022.jpg
+이 소설의 끝을 다시 써보려 해	한동근	./src/audio/087.mp3	Ballad	M	중간	MINOR	./src/img/023.jpg
+첫눈처럼 너에게 가겠다	에일리	./src/audio/029.mp3	Drama	F	중간	MINOR	./src/img/024.jpg
+"아재개그 (Narr. 김대희, 김준호)"	마마무	./src/audio/039.mp3	Dance	MIX	중간	MINOR	./src/img/025.jpg
+사랑이 잘 (With 오혁)	아이유	./src/audio/032.mp3	R&B / Soul	MIX	중간	MINOR	./src/img/029.jpg
+SUPER STAR	G-DRAGON	./src/audio/090.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/030.jpg
+TT	TWICE (트와이스)	./src/audio/061.mp3	Dance	F	중간	MINOR	./src/img/031.jpg
+맞지?	언니쓰	./src/audio/030.mp3	Dance	F	중간	MINOR	./src/img/032.jpg
+KNOCK KNOCK	TWICE (트와이스)	./src/audio/034.mp3	Dance	F	중간	MINOR	./src/img/033.jpg
+빨간 맛 (Red Flavor)	Red Velvet (레드벨벳)	./src/audio/002.mp3	Dance	F	중간	MINOR	./src/img/039.jpg
+소나기	아이오아이 (I.O.I)	./src/audio/063.mp3	Ballad	F	중간	MINOR	./src/img/040.jpg
+Shape of You	Ed Sheeran	./src/audio/012.mp3	Pop	M	중간	MINOR	./src/img/041.jpg
+Marry Me	"마크툽 (MAKTUB), 구윤회"	./src/audio/031.mp3	Ballad	M	중간	MINOR	./src/img/042.jpg
+이런 엔딩	아이유	./src/audio/093.mp3	Ballad	F	중간	MINOR	./src/img/043.jpg
+이 지금	아이유	./src/audio/097.mp3	Ballad	F	중간	MINOR	./src/img/045.jpg
+You Better Know	Red Velvet (레드벨벳)	./src/audio/076.mp3	Dance	F	중간	MINOR	./src/img/046.jpg
+Hands on me	PRODUCE 101	./src/audio/082.mp3	Dance	M	중간	MINOR	./src/img/047.jpg
+Artist	지코 (ZICO)	./src/audio/003.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/049.jpg
+FIVE	Apink (에이핑크)	./src/audio/009.mp3	Dance	F	중간	MINOR	./src/img/052.jpg
+Outside (Feat. Beenzino)	Crush	./src/audio/041.mp3	R&B / Soul	M	중간	MINOR	./src/img/053.jpg
+마에스트로 (Maestro)	창모 (CHANGMO)	./src/audio/078.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/054.jpg
+오빠 (PROD. Brother Su)	"유승우, 산들 (B1A4)"	./src/audio/099.mp3	Ballad	M	중간	MINOR	./src/img/055.jpg
+NEVER	국민의 아들	./src/audio/020.mp3	Dance	M	중간	MINOR	./src/img/056.jpg
+봄날	방탄소년단	./src/audio/037.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/059.jpg
+BLUE MOON (Prod. GroovyRoom)	"효린, 창모 (CHANGMO)"	./src/audio/025.mp3	Dance	MIX	중간	MINOR	./src/img/060.jpg
+아침에 (Feat. Bryn)	양홍원 (Young B)	./src/audio/028.mp3	Rap / Hip-hop	MIX	중간	MINOR	./src/img/063.jpg
+널 너무 모르고	헤이즈 (Heize)	./src/audio/004.mp3	Rap / Hip-hop	F	중간	MINOR	./src/img/064.jpg
+먹구름 (Feat. nafla)	헤이즈 (Heize)	./src/audio/040.mp3	Rap / Hip-hop	MIX	중간	MINOR	./src/img/066.jpg
+천재 (Behind the scene)	지코 (ZICO)	./src/audio/054.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/068.jpg
+REALLY REALLY	WINNER	./src/audio/018.mp3	Dance	M	중간	MINOR	./src/img/069.jpg
+Something Just Like This	"The Chainsmokers, Coldplay"	./src/audio/065.mp3	Electronica	M	중간	MINOR	./src/img/070.jpg
+지나쳐 (Feat. DEAN)	로꼬	./src/audio/074.mp3	Rap / Hip-hop	M	중간	MINOR	./src/img/071.jpg
+Gucci	제시 (Jessi)	./src/audio/058.mp3	Rap / Hip-hop	F	중간	MINOR	./src/img/073.jpg
+Young & Free	"시우민 (XIUMIN), 마크 (MARK)"	./src/audio/064.mp3	Dance	M	중간	MINOR	./src/img/074.jpg
+울고 싶지 않아	세븐틴	./src/audio/088.mp3	Dance	M	중간	MINOR	./src/img/075.jpg
+Love Yourself	Justin Bieber	./src/audio/060.mp3	Pop	M	중간	MINOR	./src/img/076.jpg
+알듯 말듯해	"서은광 (비투비), 임현식 (비투비), 육성재 (비투비)"	./src/audio/085.mp3	Drama	M	느림	MINOR	./src/img/078.jpg
+처음부터 너와 나	볼빨간사춘기	./src/audio/011.mp3	Drama	F	느림	MINOR	./src/img/079.jpg
+FRUITY (Prod. GroovyRoom)	"효린, 키썸 (Kisum)"	./src/audio/086.mp3	Dance	F	느림	MINOR	./src/img/080.jpg
+불장난	BLACKPINK	./src/audio/044.mp3	Dance	F	느림	MINOR	./src/img/081.jpg
+개소리 (BULLSHIT)	G-DRAGON	./src/audio/056.mp3	Rap / Hip-hop	M	느림	MINOR	./src/img/082.jpg
+"ALL I WANNA DO (K) (Feat. Hoody, Loco)"	박재범	./src/audio/045.mp3	R&B / Soul	MIX	느림	MINOR	./src/img/083.jpg
+여보세요	뉴이스트	./src/audio/049.mp3	Ballad	M	느림	MINOR	./src/img/084.jpg
+돌아오지마 (Feat. 용준형 Of 비스트)	헤이즈 (Heize)	./src/audio/043.mp3	Rap / Hip-hop	MIX	느림	MINOR	./src/img/085.jpg
+Closer (Feat. Halsey)	The Chainsmokers	./src/audio/047.mp3	Electronica	MIX	느림	MINOR	./src/img/086.jpg
+Oh Little Girl	슬레이트	./src/audio/059.mp3	Dance	F	느림	MINOR	./src/img/088.jpg
+피 땀 눈물	방탄소년단	./src/audio/092.mp3	Rap / Hip-hop	M	느림	MINOR	./src/img/089.jpg
+On&On (Feat. 챈슬러)	린	./src/audio/050.mp3	R&B / Soul	MIX	느림	MINOR	./src/img/090.jpg
+에라 모르겠다	BIGBANG	./src/audio/091.mp3	Rap / Hip-hop	M	느림	MINOR	./src/img/091.jpg
+CALLING YOU	하이라이트 (Highlight)	./src/audio/053.mp3	Dance	M	느림	MINOR	./src/img/092.jpg
+LONELY	씨스타	./src/audio/027.mp3	R&B / Soul	F	느림	MINOR	./src/img/095.jpg
+굿모닝 (Good Morning)	케이시 (Kassy)	./src/audio/069.mp3	Drama	F	느림	MINOR	./src/img/096.jpg
+남이 될 수 있을까	"볼빨간사춘기, 스무살"	./src/audio/007.mp3	Folk	F	느림	MINOR	./src/img/097.jpg
+D (half moon) (Feat. 개코)	DEAN	./src/audio/055.mp3	R&B / Soul	M	느림	MINOR	./src/img/098.jpg
+"작두 (Feat. 넉살, Huckleberry P)"	딥플로우	./src/audio/048.mp3	Rap / Hip-hop	M	느림	MINOR	./src/img/099.jpg

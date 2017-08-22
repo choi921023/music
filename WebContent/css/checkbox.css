@@ -1,142 +1,119 @@
 @CHARSET "EUC-KR";
-{margin : 0px;
-padding : 0px;}
 body { 
-	width : 100%;
+	weight : 100%;
 height : 100%;
-/* background: url(https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-Phone.jpg);  
+background: url(https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-Phone.jpg);  
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed; */ }
+background-attachment: fixed; }
+div.container {
+    width: 100%;
+    
+}
 
-.root {
-	margin : auto;
-	background-color : yellow;
-	width : 100%;
-}
-.back {
-	background-color : blue;
-	float: left;
-	width : 8%;
-	height : 90%;
-}
-.songlist {
-	background-color : green;
-	float: left;
-	width : 38%;
-	height : 90%
-}
-.selectlist {
-	background-color : red;
-	float: left;
-	width : 38%;
-	height : 90%;
-}
-.forward {
-	background-color : pink;
-	float: left;
-	width : 8%;
-	height : 90%;
-}
-.back_blank1 {
-	background-color : gray;
-	width : 100%;
-	height : 20%;
-}
-.back_button {
-	background-color : navy;
-	width : 100%;
-	height : 60%;
-}
-.back_blank {
-	background-color : black;
-	width : 100%;
-	height : 20%;
-}
-.songlist_title {
-	background-color : purple;
-	width : 100%;
-	height : 20%;
-}
-.songlist_name {
-	background-color : orange;
-	width : 100%;
-	height : 60%;
-}
-.songlist_buttons {
-	background-color : white;
-	width : 100%;
-	height : 20%;
-}
-.songlist_blank {
-	background-color : darkred;
+header .logo {
+	margin : 30px;
+	width : 20%;
+	height : 80px;
 	float : left;
-	width : 70%;
-	height : 100%;
+	text-shadow:gray;
+	text-align: center;
 }
-.songlist_button {
-	background-color : #800040;
+header .left {
+	width : 25%;
+	height : 80px;
+	float : left;
+	background-color : red;
+	text-align: right;
+	vertical-align:bottom;
+	color: white;
+	backg
+}
+
+header .right {
+	width : 25%;
+	height : 80px;
+	float : left;
+	background-color : black;
+	text-align: center;
+	color: white;
+}
+header .logout {
+	margin : 20px;
+	width : 10%;
+	height : 80px;
+	float : right;
+	text-align: center;
+	color: white;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    bottom:0;
+    position:absolute;
+    width:97%;
+    height : 50px;
+}
+
+nav {
+    float: center;
+    max-width: 80%;
+    margin: 0;
+    padding: 1em;
+    background-color : black;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+section {
+	width : 25%;
+	float : left;
+	background-color : black;
+	text-align: center;
+	color: white;
+    padding: 1em;
+    overflow: hidden;
+}
+section .sec1{
+	
+}
+article {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+input[type=button]{
+	background-color:black;
+	color : white;
+	background-color:black;
+	padding: 14px 20px;
+	border: none;
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.8;
+	border-radius : 10px;
+
+}
+
+input[type=button]:hover {
+	opacity: 1;
+}
+
+span.psw {
 	float: right;
-	width : 30%;
-	height : 100%;
+	padding-top: 16px;
 }
-.selectlist .selectlist_title {
-	background-color : #0080ff;
-	width : 100%;
-	height : 20%;
+h1 {     
+   font-size: 250%; 
 }
-.selectlist .selectlist_name {
-	background-color : silver;
-	width : 100%;
-	height : 80%;
+p1 {
+    font-size: 100%;
+    color: black;
 }
-.forward_logout {
-	background-color : ivory;
-	width : 100%;
-	height : 20%;
-}
-.forward_button {
-	background-color : kaky;
-	width : 100%;
-	height : 60%;
-}
-.forward_blank {
-	background-color : #804040;
-	width : 100%;
-	height : 20%;
-}
-/* label {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(top, #222 0%, #45484d 100%);
-    border-radius: 4px;
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
-    &:after {
-      content: '';
-      width: 9px;
-      height: 5px;
-      position: absolute;
-      top: 4px;
-      left: 4px;
-      border: 3px solid #fcfff4;
-      border-top: none;
-      border-right: none;
-      background: transparent;
-      opacity: 0;
-      transform: rotate(-45deg);
-    }
-    &:hover::after {
-      opacity: 0.3;
-    }
-  }
-  input[type=checkbox] {
-    visibility: hidden;
-    &:checked + label:after {
-      opacity: 1;
-    }    
-  } */

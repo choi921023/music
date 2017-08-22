@@ -106,14 +106,18 @@ public class MusicService {
 		}
 		return musicList;
 	}
-	
-	// 음악 선택할때 10개씩 list 가져오기
 	public static ArrayList<MusicDTO> getMusicListSelect(String[] musicGenre) throws SQLException {
 		ArrayList<MusicDTO> musicList = MusicDAO.getMusicListSelect(musicGenre);
-		return musicList;
-	}
-
+	      return musicList;
+	   }
+	
+	public static ArrayList<MusicDTO> getRandomMusicList() throws SQLException {
+	      return MusicDAO.getRandomMusicList();
+	   }
 	// Like - CRUD
+	   public static boolean createLike2(LikeDTO like) throws SQLException, NotExistException {
+		      return LikeDAO.createLike2(like);
+		   }
 	// Like 검색
 	public static ArrayList<LikeDTO> getLike(String mail) throws SQLException {
 		ArrayList<LikeDTO> musicList = null;
@@ -122,17 +126,20 @@ public class MusicService {
 	}
 
 	// Like 생성
-	public static ArrayList createLike(LikeDTO like) throws SQLException, NotExistException {
-		ArrayList result = LikeDAO.createLike(like);
+	public static MusicDTO createLike(LikeDTO like) throws SQLException, NotExistException {
+		System.out.println("startservice");
+		MusicDTO result = null;
+		result = LikeDAO.createLike(like);
+		System.out.println("endservice");
 		if (result == null) {
-			throw new NotExistException("Like create failed!");
+			result = getRandomMusicList().get((int) (Math.random()*100));
 		}
 		return result;
 	}
 
 	// Like 제거
-	public static ArrayList deleteLike(LikeDTO like) throws SQLException, NotExistException {
-		ArrayList result = LikeDAO.deleteLike(like);
+	public static MusicDTO deleteLike(LikeDTO like) throws SQLException, NotExistException {
+		MusicDTO result = LikeDAO.deleteLike(like);
 		if (result == null) {
 			throw new NotExistException("Like cancel failed!");
 		}

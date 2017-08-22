@@ -18,6 +18,7 @@
 <link rel='stylesheet prefetch'
    href='http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/checkbox.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -38,7 +39,7 @@ p1 {
     color: black;
 }
 
-header, footer {
+footer {
     padding: 1em;
     color: white;
     background-color: black;
@@ -68,10 +69,26 @@ article {
     padding: 1em;
     overflow: hidden;
 }
+
+input[type=button]{
+	background-color: black;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 198px;
+	opacity: 0.8;
+	border-radius : 10px;
+}
+
+input[type=button]:hover {
+	opacity: 1;
+}
 </style>
 <script>
-var maxChecked = 5;    //선택가능한 체크박스 갯수
-var totalChecked = 0;   // 설정 끝
+var maxChecked = 5;    //����媛��ν�� 泥댄�щ��� 媛���
+var totalChecked = 0;   // �ㅼ�� ��
 var myArray = new Array();
 var currIdx = 0;
 
@@ -109,36 +126,54 @@ function MinCountCheck(totalChecked){
 <body>
 
 <ul>
-<!-- 선택할 노래 -->
+<!-- ������ �몃�� -->
 <c:forEach items="${musicList}" var="data">
 		<li>${data.musicTitle}<input type="checkbox" name="song" value="${data.musicAddress}" onclick=CountChecked(this)></li><br>		
 </c:forEach>
 
 <div class="w3-center">
 <h1>choice your Songs</h1>
-<p1>Choose 5 or less</p1>
+<p1>Choose 5 or less (10 lists)</p1>
 </div>
 
+
+	<header>
+	<center>
+		
+		<div class="logout">
+			<input type="button" class="signupb" onClick="location.href='login.jsp'" value="log out">
+			<input type="button" class="signupb" onClick="location.href='playerDemo.jsp'" value="next">
+		</div>
+	</center>
+
+	</header>
+
+<br><br><br><br><br><br>
+<center>
 <form action="">
 
 
-</ul>
-
-
-<ul>
-   <li>song1 <input type="checkbox" name="song" value="song1" onclick=CountChecked(this)></li><br>
-   <li>song2 <input type="checkbox" name="song" value="song2" onclick=CountChecked(this)></li><br>
-   <li>song3 <input type="checkbox" name="song" value="song3" onclick=CountChecked(this)></li><br>
-   <li>song4 <input type="checkbox" name="song" value="song4" onclick=CountChecked(this)></li><br>
-   <li>song5 <input type="checkbox" name="song" value="song5" onclick=CountChecked(this)></li><br>
-   <li>song6 <input type="checkbox" name="song" value="song6" onclick=CountChecked(this)></li><br>
-   <li>song7 <input type="checkbox" name="song" value="song7" onclick=CountChecked(this)></li><br>
-   <li>song8 <input type="checkbox" name="song" value="song8" onclick=CountChecked(this)></li><br>
-   <li>song9 <input type="checkbox" name="song" value="song9" onclick=CountChecked(this)></li><br>
-   <li>song10 <input type="checkbox" name="song" value="song10" onclick=CountChecked(this)></li><br>
+  song1 <input type="checkbox" name="song" value="song1" onclick=CountChecked(this)><br><br>
+  song2 <input type="checkbox" name="song" value="song2" onclick=CountChecked(this)><br><br>
+  song3 <input type="checkbox" name="song" value="song3" onclick=CountChecked(this)><br><br>
+  song4 <input type="checkbox" name="song" value="song4" onclick=CountChecked(this)><br><br>
+  song5 <input type="checkbox" name="song" value="song5" onclick=CountChecked(this)><br><br>
+  song6 <input type="checkbox" name="song" value="song6" onclick=CountChecked(this)><br><br>
+  song7 <input type="checkbox" name="song" value="song7" onclick=CountChecked(this)><br><br>
+  song8 <input type="checkbox" name="song" value="song8" onclick=CountChecked(this)><br><br>
+  song9 <input type="checkbox" name="song" value="song9" onclick=CountChecked(this)><br><br>
+  song10 <input type="checkbox" name="song" value="song10" onclick=CountChecked(this)><br><br>
  
-</ul>  
+ 
 </form>
+
+
+<br><br><br><br><br><br>
+		<div class="logo"><font color="Black" size="5"><b>CU</b></font>
+            your music curation. <i class="fa fa-headphones" style="font-size:25px"></i></div>
+</center>
+
+
 
 <c:forEach items="${musicList}" var="data">
 		<li>${data.musicTitle}<input type="checkbox" name="song" value="${data.musicAddress}" onclick=CountChecked(this)></li><br>		
@@ -156,7 +191,7 @@ function MinCountCheck(totalChecked){
 
 
 
-<footer>Copyright &copy; Watermelon</footer>
+<footer>Copyright &copy; CUration.com</footer>
    
    
 </body>

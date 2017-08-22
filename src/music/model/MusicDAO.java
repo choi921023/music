@@ -11,8 +11,6 @@ package music.model;
 );
  */
 
-
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -25,7 +23,8 @@ import music.model.util.DBUtil;
 
 public class MusicDAO {
 	static ResourceBundle sql = DBUtil.getResourceBundle();
-	//create music
+
+	// create music
 	public static boolean addMusic(MusicDTO music) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -51,8 +50,8 @@ public class MusicDAO {
 		}
 		return false;
 	}
-	
-	//delete music
+
+	// delete music
 	public static boolean deleteMusic(String musicAddress) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -69,8 +68,8 @@ public class MusicDAO {
 		}
 		return false;
 	}
-	
-	//get music - music address¸Þ ¸ÅÄªµÇ´Â music
+
+	// get music - music address¸Þ ¸ÅÄªµÇ´Â music
 	public static MusicDTO getMusic(String musicAddress) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -83,13 +82,15 @@ public class MusicDAO {
 			pstmt.setString(1, musicAddress);
 			rset = pstmt.executeQuery();
 			if (rset.next()) {
-				music = new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8));
+				music = new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4),
+						rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
 		}
 		return music;
 	}
+
 	// get music - music address¸Þ ¸ÅÄªµÇ´Â music
 	public static ArrayList<MusicDTO> getMusicsByTitle(String musicTitle) throws SQLException {
 		Connection con = null;
@@ -99,19 +100,20 @@ public class MusicDAO {
 		try {
 			con = DBUtil.getConnection();
 			pstmt = con.prepareStatement(sql.getString("getMusicsByTitle"));
-			pstmt.setString(1, "%"+musicTitle+"%");
+			pstmt.setString(1, "%" + musicTitle + "%");
 			rset = pstmt.executeQuery();
 
 			musicList = new ArrayList<MusicDTO>();
 			while (rset.next()) {
-				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
+				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4),
+						rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
 		}
 		return musicList;
 	}
-	
+
 	public static ArrayList<MusicDTO> getMusicsBySinger(String artist) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -120,19 +122,20 @@ public class MusicDAO {
 		try {
 			con = DBUtil.getConnection();
 			pstmt = con.prepareStatement(sql.getString("getMusicsBySinger"));
-			pstmt.setString(1, "%"+artist+"%");
+			pstmt.setString(1, "%" + artist + "%");
 			rset = pstmt.executeQuery();
 
 			musicList = new ArrayList<MusicDTO>();
 			while (rset.next()) {
-				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
+				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4),
+						rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
 		}
 		return musicList;
 	}
-	
+
 	public static ArrayList<MusicDTO> getMusicListSelect(String[] musicGenre) throws SQLException {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -141,27 +144,51 @@ public class MusicDAO {
 
 		try {
 			con = DBUtil.getConnection();
-			if(musicGenre.length == 1){
+			if (musicGenre.length == 1) {
 				pstmt = con.prepareStatement(sql.getString("getMusicListSelect1"));
 				pstmt.setString(1, musicGenre[0]);
-			}else if(musicGenre.length == 2){
+			} else if (musicGenre.length == 2) {
 				pstmt = con.prepareStatement(sql.getString("getMusicListSelect2"));
 				pstmt.setString(1, musicGenre[0]);
 				pstmt.setString(2, musicGenre[1]);
-			}else if(musicGenre.length == 3){
+			} else if (musicGenre.length == 3) {
 				pstmt = con.prepareStatement(sql.getString("getMusicListSelect3"));
 				pstmt.setString(1, musicGenre[0]);
 				pstmt.setString(2, musicGenre[1]);
-				pstmt.setString(2, musicGenre[3]);
+				pstmt.setString(3, musicGenre[2]);
 			}
-			
+
 			rset = pstmt.executeQuery();
-			while(rset.next()) {
-				musicTList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4), rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
+			musicTList = new ArrayList<MusicDTO>();
+			while (rset.next()) {
+				musicTList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4),
+						rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
 			}
 		} finally {
 			DBUtil.close(con, pstmt, rset);
 		}
+		System.out.println(musicTList);
 		return musicTList;
+	}
+
+	public static ArrayList<MusicDTO> getRandomMusicList() throws SQLException {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rset = null;
+		ArrayList<MusicDTO> musicList = null;
+		try {
+			con = DBUtil.getConnection();
+			pstmt = con.prepareStatement(sql.getString("getRandomMusicList"));
+			rset = pstmt.executeQuery();
+
+			musicList = new ArrayList<MusicDTO>();
+			while (rset.next()) {
+				musicList.add(new MusicDTO(rset.getString(1), rset.getString(2), rset.getString(3), rset.getString(4),
+						rset.getString(5), rset.getString(6), rset.getString(7), rset.getString(8)));
+			}
+		} finally {
+			DBUtil.close(con, pstmt, rset);
+		}
+		return musicList;
 	}
 }

@@ -1,33 +1,31 @@
 package music.model.dto;
 
-
-
 public class MusicDTO {
-	private String musicAddress;
-	private String musicTitle;
-	private String artist;
-	private String genre;
-	private String bpm;
-	private String gender;
-	private String melody;
-	private String albumAddress;
+	   private String artist;
+	   private String musicTitle;
+	   private String genre;
+	   private String bpm;
+	   private String musicAddress;
+	   private String melody;
+	   private String gender;
+	   private String albumAddress;
+	   
+   public MusicDTO() {
+	      super();
+	   }
 
-	public MusicDTO() {
-		super();
-	}
-
-	public MusicDTO(String musicAddress, String musicTitle, String artist, String genre, String bpm,
-			String gender, String melody, String albumAddress) {
-		super();
-		this.musicAddress = musicAddress;
-		this.musicTitle = musicTitle;
-		this.artist = artist;
-		this.genre = genre;
-		this.bpm = bpm;
-		this.gender = gender;
-		this.melody = melody;
-		this.albumAddress = albumAddress;
-	}
+   public MusicDTO(String artist, String musicTitle, String genre, String bpm,
+	         String musicAddress, String melody, String gender, String albumAddress) {
+	      super();
+	      this.artist = artist;
+	      this.musicTitle = musicTitle;
+	      this.genre = genre;
+	      this.bpm = bpm;
+	      this.musicAddress = musicAddress;
+	      this.melody = melody;
+	      this.gender = gender;
+	      this.albumAddress = albumAddress;
+	   }
 
 	public String getMusicAddress() {
 		return musicAddress;

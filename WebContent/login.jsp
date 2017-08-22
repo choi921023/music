@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>login.jsp</title>
+<title>로그인</title>
 <link rel="stylesheet"
    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -107,7 +107,7 @@ span.psw {
          <div class="container">
             
             <font color="Black" size="35"><b>CU</b></font>
-            your music curation. <i class="fa fa-headphones" style="font-size:25px"></i><br>
+            your music <b>cu</b>ration. <i class="fa fa-headphones" style="font-size:25px"></i><br>
             <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
             <input type="password" id="password" name="password"
                placeholder="Enter Password"><br>
